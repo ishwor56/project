@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* .travel{
+    position: fixed !important;
+    top: 0 !important;
+} */
+
+.second {
+    background: url(./img/hero-bg.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media(max-width: 700px) {
+    .icons {
+        display: none;
+    }
+    .simple {
+        width: 100%;
+        display: flex !important;
+    }
+    .solo {
+        display: inline-block;
+        margin-left: 20px;
+    }
+}
+
+.shower {
+    font-size: 42px;
+    font-weight: bold;
+    color: skyblue;
+}
+
+.hour {
+    font-weight: lighter;
+    color: rgb(91, 91, 235);
+}
+
+.center {
+    margin-bottom: 60px !important;
+}
+
+@media(max-width: 700px) {}
+
+.scale-1 {
+    position: relative;
+    bottom: 140px;
+}
+
+.vibe {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: #fff;
+    width: 100%;
+    /* height: 100%; */
+    height: 320px;
+    position: relative;
+    margin-bottom: 90px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vibe {
+    padding-top: 50px;
+}
+
+.vibe .bi {
+    padding-top: 30px;
+}
+
+
+/* THIS IS THRIS SECTION */
+
+.read {
+    border: 2px solid cyan;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: cyan;
+}
+
+.pipe {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: #fff;
+}
+
+.no {
+    position: relative;
+    bottom: 30px;
+    border: 1px solid cyan;
+    padding: 5px 10px;
+    color: #fff;
+    background: skyblue;
+    border: none;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.bro:hover {
+    background: skyblue;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.bro-1:hover {
+    background: skyblue;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.show {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    font-size: 44px;
+    padding: 5px 10px;
+}
+
+.bro {
+    border: 1px solid grey;
+    padding: 16px 20px;
+    margin-top: 20px !important;
+}
+
+.bro-1 {
+    border: 1px solid grey;
+    padding: 30px 20px;
+}
+
+@media(max-width: 700px) {
+    .surur {
+        margin-right: 400px;
+    }
+    .pipe {
+        margin-top: 64px !important;
+    }
+    .bro-1 {
+        border: 1px solid grey;
+        padding: 16px 20px;
+        margin-top: 20px !important;
+    }
+    .bro {
+        border: 1px solid grey;
+        padding: 16px 20px;
+        margin-top: 20px !important;
+    }
+}
+
+.niki {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.niki img {
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.niki:hover img {
+    transform: scale(1.3);
+}
+
+.shock {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px 20px;
+}
+
+.sky .bi {
+    border: 1px solid cyan;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background: rgb(69, 85, 85);
+    color: #fff;
+    margin-right: 3px;
+}
+
+.again {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.again img {
+    transition: 0.5s;
+}
+
+.again:hover img {
+    transform: scale(1.1);
+}
+
+.uuu .bi {
+    border: 1px solid skyblue;
+    padding: 6px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    align-items: center;
+    align-items: center;
+    background: skyblue;
+    border-radius: 50%;
+}
+
+@media(max-width: 700px) {
+    .yellow {
+        text-align: center !important;
+    }
+}
+
+.poilo {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 22px 22px;
+}
+
+.you .bi {
+    border: 1px solid skyblue;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: skyblue;
+    border-radius: 50%;
+}
+
+.lalal {
+    top: 40px;
+}
+
+footer {
+    background: #f1f1f1;
+}
